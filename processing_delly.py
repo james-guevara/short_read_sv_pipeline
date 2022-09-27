@@ -3,7 +3,7 @@ import sys
 
 # Read the input VCF file:
 delly = sys.argv[1]
-out= sys.argv[2]
+out = sys.argv[2]
 mybcf = pysam.VariantFile(delly, "r")
 
 # New VCF file to be written:
